@@ -1,3 +1,5 @@
+pub mod eliptic_curve_practice;
+
 fn main() {
-    println!("Hello, world!");
+    eliptic_curve_practice::run().unwrap();
 }
